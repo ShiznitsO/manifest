@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="crdroid"
+        fetch="https://github.com/crdroidandroid"
+        sync-j="16" 
+        revision="8.1" />
+
+    <project path="packages/apps/crDroidMusic" name="android_packages_apps_crDroidMusic" remote="crdroid" clone-depth="1" />
+
+</manifest>
